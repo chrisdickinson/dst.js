@@ -1,0 +1,28 @@
+{
+  "name": "dst",
+  "version": "0.0.1",
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "description": "determine if a date is in daylight savings time",
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdickinson/dst.js.git"
+  },
+  "keywords": [
+    "dst",
+    "time",
+    "date",
+    "datetime"
+  ],
+  "devDependencies": {
+    "mocha" :  "0.x.x"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": "*"
+  }
+}
+
