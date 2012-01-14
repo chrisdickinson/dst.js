@@ -51,7 +51,7 @@ $ npm test dst
 
 ````
 
-in browser: [open this url](https://chrisdickinson.github.com/dstjs/test/)
+in browser: [open this url](https://chrisdickinson.github.com/dst.js/test/)
 
 # LICENSE
 
