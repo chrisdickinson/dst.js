@@ -2,6 +2,8 @@
 
 Is it daylight savings time?
 
+Designed for use in node as well as in-browser.
+
 ## Date.prototype.isDST()
 
 Returns true if the date is during daylight savings time.
@@ -40,12 +42,16 @@ May be used to provide valid `thresholds` to pass into `is_dst`, if so desired.
 
 # testing
 
+in node:
+
 ````
 
 $ npm install --dev dst
 $ npm test dst
 
 ````
+
+in browser: [open this url](https://chrisdickinson.github.com/dstjs/test/)
 
 # LICENSE
 
