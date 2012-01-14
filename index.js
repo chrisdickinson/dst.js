@@ -66,7 +66,7 @@ Date.prototype.isDST = function(thresholds) {
 
 is_dst.find_thresholds = find_dst_thresholds
 
-if(typeof module !== undefined) {
+if(typeof module !== 'undefined') {
   module.exports = is_dst
 } else {
   window.is_dst = is_dst 
