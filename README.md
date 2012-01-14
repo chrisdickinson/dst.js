@@ -51,7 +51,18 @@ $ npm test dst
 
 ````
 
-in browser: [open this url](https://chrisdickinson.github.com/dst.js/test/)
+in browser: [open this url](http://chrisdickinson.github.com/dst.js/test/)
+
+or:
+
+````
+
+$ git clone git@github.com:chrisdickinson/dst.js.git
+$ cd dst.js
+$ python -m SimpleHTTPServer
+$ open http://localhost:8000/test/
+
+````
 
 # LICENSE
 
