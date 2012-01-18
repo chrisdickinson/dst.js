@@ -54,10 +54,7 @@ function is_dst(datetime, thresholds) {
 
   if(min < offset && offset < max)
     return !dst_is_reversed
-  if(offset < min)
-    return dst_is_reversed
-  else
-    return !dst_is_reversed
+  return dst_is_reversed
 }
 
 Date.prototype.isDST = function(thresholds) {

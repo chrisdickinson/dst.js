@@ -54,4 +54,9 @@ suite("dst", function() {
       }) 
     })
   })
+
+  test("make sure dates in the past work", function() {
+    var is_northern_hemisphere = new Date(2012, 0, 1, 0, 0).getTimezoneOffset() > new Date(2012, 6, 1, 0, 0).getTimezoneOffset()
+    assert.equal(new Date(2010,11, 1, 18, 3, 59, 888).isDST(), !is_northern_hemisphere)
+  })
 })
