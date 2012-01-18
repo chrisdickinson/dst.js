@@ -1,6 +1,6 @@
 {
   "name": "dst",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Chris Dickinson <chris@neversaw.us>",
   "description": "determine if a date is in daylight savings time",
   "scripts": {
