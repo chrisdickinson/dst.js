@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/chrisdickinson/dst.js.png)](http://travis-ci.org/chrisdickinson/dst.js)
 # dst.js
 
 Is it daylight savings time?
