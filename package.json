@@ -1,6 +1,6 @@
 {
   "name": "dst",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Chris Dickinson <chris@neversaw.us>",
   "description": "determine if a date is in daylight savings time",
   "scripts": {
@@ -18,11 +18,10 @@
     "datetime"
   ],
   "devDependencies": {
-    "mocha" :  "0.x.x"
+    "mocha": "0.x.x"
   },
   "license": "MIT",
   "engine": {
     "node": "*"
   }
 }
-
