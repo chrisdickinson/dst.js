@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "main": "./lib/index",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisdickinson/dst.js.git"
